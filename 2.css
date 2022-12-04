@@ -1,0 +1,89 @@
+
+
+html {
+    font-family: "Vazir";
+}
+
+
+#color-green{
+    color: green;
+}
+.background-eqa{
+    background-color: aqua;
+}
+.background-eqa#color-green{
+    font-weight: bold;
+}
+div.background-eqa{
+    margin: 50px;
+}
+header .background-eqa{
+    margin: 80px;
+}
+header .background-eqa header{
+    font-weight: bolder;
+}
+li > span{
+    background-color: brown;
+}
+li.item+span{
+    color: azure;
+}
+li.item~span{
+    color: blue;
+}
+li:hover{
+    background-color: aliceblue;
+}
+li:first-child a{
+    color: black;
+}
+li::before{
+    content:"پدرم:" ;
+    color:darkorange;}
+/*ul span::after{
+    content:"پدرم:" ;
+    color:darkorange;}
+
+}*/
+ul span::first-letter{
+    color: chartreuse;
+}
+p::first-letter{
+    color: chartreuse;
+}
+h4::first-letter{
+    color: chartreuse;
+}
+h1::first-letter{
+    color: aqua;
+}
+h4::first-line{
+    color: crimson;
+}
+
+
+
+
+
+.header{
+    background:rgba(159, 5, 5,.1);
+
+    border:10px dashed yellow ;
+
+
+      font-weight: 900;
+    /* padding: 10px;
+    
+    opacity: 0.75;
+    background-color: aquamarine;
+    background-size:cover;
+    background-position:100%;
+    box-sizing: border-box;
+    background-orgin:border-box; 
+    background-attachment: fixed;
+
+    background-image: url(https://th.bing.com/th/id/OIP.X00YI4DYsygEGcAkLTF0GwHaE7?w=259&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7);
+} */
+
+        }

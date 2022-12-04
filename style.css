@@ -1,0 +1,44 @@
+#background-yellow{
+    background-color:yellow;
+}
+.color-red{
+    color: red;
+}
+
+#background-bowrn{
+    background-color: brown;
+
+}
+ .background-yellow{
+    background-color: yellow;
+ }   
+.color-red.background-yellow{
+    margin: 20px;
+}
+#background-bowrn.color-red{
+    font-weight: bold;margin: 50px;
+}
+div.background-yellow{
+    margin: 50px;
+}
+header #background-yellow{
+    font-weight: bold;
+}
+header div .color-red{
+    margin: 20px;
+}
+a[href]{
+    color: pink;
+}
+
+a[href$="me/"]{
+    color: darkgreen;
+
+}
+
+a[href*="learn-css"]{
+    color: blue;
+}
+li[class~ ="item"] a{
+    color: brown;
+}

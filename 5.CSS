@@ -1,0 +1,38 @@
+/*.container{
+    background: #ffd54f;
+    display: flex;
+       height: 900px;
+       flex-direction: column;
+}
+
+.item{
+    font-size:50px;
+    padding: 5px;
+    background: #fff;
+    margin: 3px;
+    text-align: center;
+    text-shadow:4px 4px 0 rgba(0,0,0,.1) ;
+    box-shadow: 1px 1px 0 rgba(0,0,0,.1);
+    width: calc(33.3333333% - 46px);
+}
+.flex-container{
+    height:800 px;
+    display: flex;
+}
+.flex-container p{
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+}*/
+
+body{
+    background-color: aquamarine;
+    height: 1500px;
+}
+
+.snowman{
+    width:500px;
+    height:500px;
+    color: black;
+    
+}

@@ -1,0 +1,44 @@
+html{
+    font-size: 100%;
+    font-family: vazir;
+}
+
+.section{
+    text-align: center;
+    padding: 2rem 0;
+    color: aliceblue;
+    background-color: cadetblue;
+
+}
+.header,.c1{
+    margin-bottom: 2rem;
+}
+.content{
+    float: left;
+    width:calc(66.66% - 1rem) ;
+    margin-right: 1rem;
+}
+.sidebar{
+    float: left;
+    width:33.33%;
+
+}
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+.content .box{
+    height: 100px;
+    margin: .5rem;
+    background: yellow;
+    float: left;
+    width: calc(33.33% - 1rem);
+}
+
+.header{
+    font-size: medium;
+}
